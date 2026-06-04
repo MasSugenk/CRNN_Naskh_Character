@@ -30,5 +30,4 @@ pip install -r requirements.txt
 
 📊 Evaluation Metrics
 This model is evaluated using standardized Optical Character Recognition (OCR) metrics:
-Character Error Rate (CER)
-Word Error Rate (WER)
+Character Error Rate (CER) and Word Error Rate (WER)
