@@ -15,20 +15,20 @@ Implementation of Convolutional Recurrent Neural Network (CRNN) combined with Co
 │   ├── plot_metrics.py   # High-resolution (300 DPI) visualization generator for paper publication
 │   └── inference.py      # Independent inference script for single-image testing
 └── paper_results/        # Output directory for loss curves and error rate plots
+```
 
-🛠️ Installation & Setup
+## 🛠️ Installation & Setup
+
 Clone this repository:
-
-Bash
-git clone [https://github.com/YOUR_USERNAME/CRNN_Naskh_Character.git](https://github.com/YOUR_USERNAME/CRNN_Naskh_Character.git)
+git clone [https://github.com/MasSugenk/CRNN_Naskh_Character.git](https://github.com/MasSugenk/CRNN_Naskh_Character.git)
 cd CRNN_Naskh_Character
-Install dependencies:
 
-Bash
+
+Install dependencies:
 pip install -r requirements.txt
+
+
 📊 Evaluation Metrics
 This model is evaluated using standardized Optical Character Recognition (OCR) metrics:
-
 Character Error Rate (CER)
-
 Word Error Rate (WER)
