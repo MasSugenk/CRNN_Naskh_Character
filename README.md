@@ -3,6 +3,18 @@ Implementation of Convolutional Recurrent Neural Network (CRNN) with Connectioni
 
 Implementation of Convolutional Recurrent Neural Network (CRNN) combined with Connectionist Temporal Classification (CTC) Loss for Arabic Naskh handwritten text recognition. This repository focuses on analyzing the impact of horizontal spatial resolution and gradient accumulation steps on stabilizing CTC Loss and preventing numerical instability (`NaN` issues) during training on long Arabic sequences.
 
+Total characters: 40
+    Characters: [' ', ']', 'ء', 'آ', 'أ', 'ؤ', 'إ', 'ئ', 'ا', 'ب', 'ة', 'ت', 'ث', 'ج', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز']
+
+## 🚀 TRAINING CURVE
+<img width="1206" height="352" alt="image" src="https://github.com/user-attachments/assets/7b2bd6ba-0202-4a70-bb75-8f4ba013be9c" />
+
+## 🚀 RESULT TEST IMAGE
+<img width="1242" height="362" alt="image" src="https://github.com/user-attachments/assets/986f97c1-c59d-46f2-8ef4-191f7eb6c556" />
+<img width="1206" height="335" alt="image" src="https://github.com/user-attachments/assets/26fdc061-dbe8-4b24-b1c0-787bd744c26c" />
+
+
+
 ## 🚀 Key Features
 - **Spatial Resolution Optimization:** Specifically tailored for handling long cursive Arabic Naskh scripts by preventing aggressive horizontal pooling.
 - **Gradient Accumulation Integration:** Simulates large batch sizes to stabilize gradient estimation under resource-constrained environments (VRAM limitations).
