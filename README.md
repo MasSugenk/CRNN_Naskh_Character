@@ -1,5 +1,5 @@
 # CRNN_Naskh_Character
-Implementation of Convolutional Recurrent Neural Network (CRNN) with Connectionist Temporal Classification (CTC) Loss for Arabic Naskh from HICMA dataset.
+Implementation of Convolutional Recurrent Neural Network (CRNN) with Connectionist Temporal Classification (CTC) Loss for Arabic Naskh from HICMA dataset (https://hicma.net/dataset.html).
 
 Implementation of Convolutional Recurrent Neural Network (CRNN) combined with Connectionist Temporal Classification (CTC) Loss for Arabic Naskh handwritten text recognition. This repository focuses on analyzing the impact of horizontal spatial resolution and gradient accumulation steps on stabilizing CTC Loss and preventing numerical instability (`NaN` issues) during training on long Arabic sequences.
 
